@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int welcome(float a, float b) {
+int welcome(float a, float b) 
 float welcome(float a, float b) {
     return a * b;
 }
@@ -10,5 +10,5 @@ int main() {
     scanf("%f %f",&x, &y);
     printf("Product: %.2f", welcome(x,y));
     return 0;
-}
+
 }
