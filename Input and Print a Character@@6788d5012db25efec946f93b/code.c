@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main (){
-    char ()
-    printf("Enter a number: ");
+    char ch;
     scanf("%c",&ch);
-    printf("The entereed character is:%c\n",ch);
+    printf("You entered :%c\n",ch);
     return 0;
 }
