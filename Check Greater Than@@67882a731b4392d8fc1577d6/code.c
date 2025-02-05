@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int welcome(int a, int b) {
+int welcome(int a, int b){
     scanf("%d %d",&a,&b);
     if(a>b){
         return "True";
