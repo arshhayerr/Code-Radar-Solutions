@@ -10,7 +10,6 @@ int welcome(int a, int b){
     }
     return 0;
 }
-
 int main() {
     int x,y;
     printf("%s", welcome(x,y));
