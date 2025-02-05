@@ -11,3 +11,4 @@ int main() {
     printf("Product: %.2f", welcome(x,y));
     return 0;
 }
+}
