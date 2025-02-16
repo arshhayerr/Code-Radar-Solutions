@@ -1,14 +1,14 @@
 #include<stdio.h>
+
+
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if(a>b)
-    {
-        printf("True");
+    if(a>b){
+        return "True";
     }
-    else
-    {
-        printf("False");
+    else{
+        return "False";
     }
     return 0;
 }
