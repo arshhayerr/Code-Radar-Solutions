@@ -1,18 +1,15 @@
 #include <stdio.h>
-
-int welcome(int a,int b) {
-    if (a>=b){
-        return "True";
+int main()
+{
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if(a>=b)
+    {
+        printf("True");
     }
-    else{
-        return "False";
+    else
+    {
+        printf("False");
     }
-    return 0;
-}
-
-int main() {
-    int x,y;
-    scanf("%d %d",&x,&y);
-    printf("%s", welcome(x,y));
     return 0;
 }
