@@ -2,7 +2,8 @@
 int main()
 {
     int a,b;
-    scanf("%d %d %d ",&a,&b,&c);
+    scanf("%d %d %d",&a,&b,&c);
+
     if (a+b>c){
         printf("Valid");
     }
