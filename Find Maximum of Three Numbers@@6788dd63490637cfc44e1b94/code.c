@@ -1,16 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int a;
-    scanf("%d",&a);
-    if((a>>31)&1)
-    {
-        printf("Set");
+    int a,b,c,max;
+    printf("Enter three numbers:");
+    scanf("%d %d %d",&a,&b,&c);
+    if( a >= b and a >= c){
+        max=a;
     }
-    else
-    {
-        printf("Not Set");
+    else if (b>=a and b>=c){
+        max=b;
     }
+    else{
+        max=c;
+    }
+    printf("Maximum number is: %d\n",max);
     return 0;
-
 }
