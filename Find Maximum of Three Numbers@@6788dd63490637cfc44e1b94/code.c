@@ -7,7 +7,7 @@ int main()
     if( a >= b and a >= c){
         max=a;
     }
-    else if (b>=a and b>=c){
+    else if (b >= a and b >= c){
         max=b;
     }
     else{
