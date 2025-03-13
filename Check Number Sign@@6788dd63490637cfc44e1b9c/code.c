@@ -1,12 +1,28 @@
-#include<stdio.h>
+// #include<stdio.h>
+// int main()
+// {
+//     int a;
+//     if (a>0){
+//         printf("Positive");
+//     }else if(a<0){
+//         printf("Negative");
+//     }else{
+//         printf("Zero");
+//     }
+//     return 0;
+// }
+#include <stdio.h>
 int main()
 {
     int a;
-    if (a>0){
+    scanf("%d",&a);
+    if(a>0){
         printf("Positive");
-    }else if(a<0){
+    }
+    else if(a<0){
         printf("Negative");
-    }else{
+    }
+    else{
         printf("Zero");
     }
     return 0;
