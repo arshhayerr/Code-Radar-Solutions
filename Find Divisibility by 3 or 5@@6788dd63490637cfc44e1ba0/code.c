@@ -10,7 +10,7 @@ int main()
     }else if(x%5==0 && x%3==0){
         printf("Divisible by Both");
     }else{
-        printf("Neither")
+        printf("Neither");
     }
     return 0;
 }
