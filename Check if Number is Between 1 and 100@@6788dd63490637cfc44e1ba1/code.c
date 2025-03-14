@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    int x;
-    scanf("%d",&x);
+    int a;
+    scanf("%d",&a);
     if(a>1 ||a==1 ||a<100||a==100){
         printf("In Range");
     }
