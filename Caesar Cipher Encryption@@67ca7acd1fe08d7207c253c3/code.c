@@ -7,5 +7,4 @@ void caesarCipher(char message[] , int shift , char encrypted[]){
         encrypted[i] = l;
         i++;
     }
-
 }
