@@ -1,4 +1,3 @@
-// Your code here...
 #include<stdio.h>
 #include<string.h>
 void swap(char str1[],char str2[])
